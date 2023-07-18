@@ -21,5 +21,17 @@ namespace FastFoodRestaurantUI
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            pnLeftBorder.Height = button1.Height;
+            pnLeftBorder.Top = button1.Top; 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            pnLeftBorder.Height = button3.Height;
+            pnLeftBorder.Top = button3.Top;
+        }
     }
 }
